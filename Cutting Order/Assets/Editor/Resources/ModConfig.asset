@@ -11,13 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
   m_Name: ModConfig
   m_EditorClassIdentifier: 
-  id: template
-  title: Template
-  author: 
-  description: "[INSERT FLAVOR TEXT HERE]\n\n[INSERT SOLVING DESCRIPTION HERE]\n\n[INSERT
-    POTENTIAL CREDITS HERE]\n\nThe manual can be found in the manuals folder of the
-    game or at ktane.timwi.de.\n\r\nContact Fartlicker777#9169 on Discord if there
+  id: CuttingOrder
+  title: Cutting Order
+  author: me
+  description: "You ever wonder why the people who make these bombs also make a way
+    to disarm them? If you want to cause destruction, you might as well leave out
+    the safety mechanism.\n\nCut the wires in order based on a combination of both
+    their colors and positions.\n\nThe manual can be found in the manuals folder of
+    the game or at ktane.timwi.de.\n\r\nContact Fartlicker777#9169 on Discord if there
     are any bugs."
   version: 
   outputFolder: build
-  previewImage: {fileID: 0}
+  previewImage: {fileID: 2800000, guid: ec8365561650e9348b3fdb2b95c6ef6d, type: 3}
