@@ -124,7 +124,7 @@ public class CuttingOrder : MonoBehaviour {
       }
       CalculateRuleNumber();
 
-      Debug.LogFormat("[Cutting Order #{0}] Version 1.0.0.", ModuleId);
+      Debug.LogFormat("[Cutting Order #{0}] Version 1.0.1.", ModuleId);
 
       Debug.LogFormat("[Cutting Order #{0}] Using row {1}.", ModuleId, RuleNumber + 1);
       CalculateCurrentWireToCut();
@@ -270,7 +270,7 @@ public class CuttingOrder : MonoBehaviour {
          yield break;
       }
       for (int i = 0; i < Command.Length; i++) {
-         if (IsCut[int.Parse(Command[i].ToString())]) {
+         if (IsCut[int.Parse(Command[i].ToString()) - 1]) {
             continue;
          }
          Wires[int.Parse(Command[i].ToString()) - 1].OnInteract();
